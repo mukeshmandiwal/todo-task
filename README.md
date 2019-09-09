@@ -1,10 +1,10 @@
 # Todo Task app
 
-## Introduction
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2f32578-efdf-4524-ad46-7b218d04bb0e/deploy-status)](https://app.netlify.com/sites/happy-edison-a2dd8a/deploys)
 
 ## App Link
 
-You can see in action [here](https://luiggi370z.github.io/react-todo/).
+You can see in action [here](https://happy-edison-a2dd8a.netlify.com/).
 
 ## Features
 
@@ -41,7 +41,15 @@ You can see in action [here](https://luiggi370z.github.io/react-todo/).
 ### Firebase Configuration
 
 - copy/paste your configuration from your Firebase project's dashboard into
-  - _.env_ file
+
+  - replace new.env with .env in root and add the firebase configuration
+
+### Activate Sign-In Methods
+
+Enable Authentication > Sign-in method > then enable for the email and google Sign-in method
+
+- Email/Password
+- Google
 
 ### Security Rules
 
