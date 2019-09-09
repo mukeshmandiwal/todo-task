@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em !important;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  margin-top: 6%;
+  height: 50px;
+  background-color: #acacac !important;
+  outline: 2px solid slategrey !important;
+}
+
+* > {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  padding: 2px;
+  color: rgba(65, 65, 65, 0.8);
+}
+
+.button {
+  outline: none;
+  border: none;
+}
+
+input:focus,
+input:active,
+button:active,
+button:focus {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+* .button {
+  outline: none;
+  border: none;
+  background: red;
+}
+
+body {
+  @import url(
+    https://fonts.googleapis.com/css?family=Roboto:300,
+    400,
+    500,
+    600,
+    700,
+    800
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+  background-color: #f0efe9;
+  font-family: Roboto, sans-serif;
+}
